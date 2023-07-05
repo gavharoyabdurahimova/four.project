@@ -1,0 +1,120 @@
+.sect5 {
+  background-color: $bacround-head-sect5;
+  padding: 112px 0;
+}
+.simpl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    max-width: 676px;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  p {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: 733px;
+    margin-top: 24px;
+  }
+}
+.shadow_num {
+  margin-top: 129px;
+  display: flex;
+  column-gap: 36px;
+}
+.shadow_month {
+  flex: 1;
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03),
+    0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+  border-radius: 6px;
+  background: #fff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+
+  >p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: 259px;
+    margin-bottom: 29px;
+    color: $color-p;
+  }
+
+  .span-line{
+  width: 339px;
+  height: 1px;
+  background:#48dbe0;
+  margin-bottom: 32px;
+    }
+    button{
+      max-width:292px;
+      color: $color-blue;
+      background-color: $color-white;
+      border:1px solid $color-blue;
+      padding: 16px;
+      margin-top: 12px;
+      font-size:18px ;
+    }
+    button:hover{
+      color: $color-white;
+      background: $color-blue;
+    }
+}
+.num_month {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  h3 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+    color: $color-h;
+    padding-top: 46px;
+    padding-bottom: 21px;
+  }
+
+  p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.32px;
+    color: $color-p;
+    padding-top: 46px;
+  }
+}
+.push {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: $color-p;
+  }
+  .exclima
+  {
+    width:24px;
+    height: 24px;
+  }
+  .circle{
+    width:28px;
+    height: 28px;
+  }
+}

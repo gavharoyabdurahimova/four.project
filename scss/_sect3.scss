@@ -1,0 +1,49 @@
+.sect3 {
+  background-color: $sect3-bacround;
+  padding-top: 57px;
+
+  .phone_img {
+    transform: translateX(-80px);
+  }
+
+  .sect3_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.sect3_right {
+  color: $color-white;
+  h2 {
+    max-width: 546px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 18px;
+  }
+  p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: 549px;
+  }
+}
+.social_secure {
+  display: flex;
+  margin-top: 36px;
+}
+.social {
+    h4 {
+        margin-top: 12px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+      }
+     p{
+        margin-top: 12px;
+        max-width: 265px;
+     }
+  }

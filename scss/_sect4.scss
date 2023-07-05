@@ -1,0 +1,54 @@
+.sect4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 112px 0;
+}
+.sect4_left {
+  h2 {
+    max-width: 675px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 24px;
+    
+  }
+  .first{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 733px;
+    margin-bottom: 40px;
+  }
+}
+.cerf_choos{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 40px;
+.cerful{
+ 
+  h4{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 16px;
+  }
+  p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: 306px;
+    margin-top: 16px;
+  }
+}
+
+}
+.sect4_right img{
+  max-width: 598px;
+  height: 601px;
+}
+
